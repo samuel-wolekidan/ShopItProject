@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-02-14T16:46:43" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2015-02-14T16:46:44" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2015-02-14T16:46:44" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-02-14T16:46:44" Importance="Diagnostic" Text="ProjectPath = ..\ShoppingFrameworkLib\ShoppingFrameworkLib.csproj" />
+  <Message Timestamp="2015-02-14T16:46:44" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-02-14T16:46:44" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-02-14T16:46:44" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2015-02-14T16:46:44" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2015-02-14T16:46:44" Importance="Medium" Text="ShoppingFramework's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'ShoppingFramework::Customer' -  (Class), 'ShoppingFramework::CustomerFactory' -  (Class), 'ShoppingFramework::Producer' -  (Class), 'ShoppingFramework::ProducerFactory' -  (Class), 'ShoppingFramework::SummaryGenerator' -  (Class), 'ShoppingFramework::Product' -  (Class), 'ShoppingFramework::ProductFactory' -  (Class), 'ShoppingFramework::ShopItem' -  (Class), 'ShoppingFramework::ShopItemFactory' -  (Class) " />
+  <Message Timestamp="2015-02-14T16:46:48" Importance="Medium" Text="Project Added: C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\ShoppingFrameworkLib.csproj" />
+  <Message Timestamp="2015-02-14T16:46:48" Importance="Medium" Text="'ShoppingFramework::Customer' -  (Class) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\Customer.cs" />
+  <Message Timestamp="2015-02-14T16:46:48" Importance="Medium" Text="'ShoppingFramework::CustomerFactory' -  (Class) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\CustomerFactory.cs" />
+  <Message Timestamp="2015-02-14T16:46:49" Importance="Medium" Text="'ShoppingFramework::Producer' -  (Class) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\Producer.cs" />
+  <Message Timestamp="2015-02-14T16:46:49" Importance="Medium" Text="'ShoppingFramework::ProducerFactory' -  (Class) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\ProducerFactory.cs" />
+  <Message Timestamp="2015-02-14T16:46:50" Importance="Medium" Text="'ShoppingFramework::SummaryGenerator' -  (Class) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\SummaryGenerator.cs" />
+  <Message Timestamp="2015-02-14T16:46:50" Importance="Medium" Text="'ShoppingFramework::Product' -  (Class) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\Product.cs" />
+  <Message Timestamp="2015-02-14T16:46:51" Importance="Medium" Text="'ShoppingFramework::ProductFactory' -  (Class) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\ProductFactory.cs" />
+  <Message Timestamp="2015-02-14T16:46:51" Importance="Medium" Text="'ShoppingFramework::ShopItem' -  (Class) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\ShopItem.cs" />
+  <Message Timestamp="2015-02-14T16:46:52" Importance="Medium" Text="'ShoppingFramework::ShopItemFactory' -  (Class) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\ShopItemFactory.cs" />
+  <Message Timestamp="2015-02-14T16:46:52" Importance="Diagnostic" Text="Name = EnumTemplate" />
+  <Message Timestamp="2015-02-14T16:46:52" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-02-14T16:46:52" Importance="Diagnostic" Text="ProjectPath = ..\ShoppingFrameworkLib\ShoppingFrameworkLib.csproj" />
+  <Message Timestamp="2015-02-14T16:46:52" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-02-14T16:46:52" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-02-14T16:46:52" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4" />
+  <Message Timestamp="2015-02-14T16:46:52" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4" />
+  <Message Timestamp="2015-02-14T16:46:52" Importance="Medium" Text="ShoppingFramework's Text Template Binding: 'EnumTemplate' will apply EnumTemplate.t4 to: 'ShoppingFramework::ProductStatus' -  (Enumeration) " />
+  <Message Timestamp="2015-02-14T16:46:52" Importance="Medium" Text="'ShoppingFramework::ProductStatus' -  (Enumeration) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\ProductStatus.cs" />
+  <Message Timestamp="2015-02-14T16:46:52" Importance="Diagnostic" Text="Name = InterfaceTemplate" />
+  <Message Timestamp="2015-02-14T16:46:52" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-02-14T16:46:52" Importance="Diagnostic" Text="ProjectPath = ..\ShoppingFrameworkLib\ShoppingFrameworkLib.csproj" />
+  <Message Timestamp="2015-02-14T16:46:52" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-02-14T16:46:52" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-02-14T16:46:52" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2015-02-14T16:46:52" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2015-02-14T16:46:52" Importance="Medium" Text="ShoppingFramework's Text Template Binding: 'InterfaceTemplate' will apply InterfaceTemplate.t4 to: 'ShoppingFramework::ICustomer' -  (Interface), 'ShoppingFramework::ICustomerFactory' -  (Interface), 'ShoppingFramework::IProducer' -  (Interface), 'ShoppingFramework::IProducerFactory' -  (Interface), 'ShoppingFramework::ISummaryGenerator' -  (Interface), 'ShoppingFramework::IProduct' -  (Interface), 'ShoppingFramework::IProductFactory' -  (Interface), 'ShoppingFramework::IShopItem' -  (Interface), 'ShoppingFramework::IShopItemFactory' -  (Interface) " />
+  <Message Timestamp="2015-02-14T16:46:53" Importance="Medium" Text="'ShoppingFramework::ICustomer' -  (Interface) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\ICustomer.cs" />
+  <Message Timestamp="2015-02-14T16:46:53" Importance="Medium" Text="'ShoppingFramework::ICustomerFactory' -  (Interface) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\ICustomerFactory.cs" />
+  <Message Timestamp="2015-02-14T16:46:54" Importance="Medium" Text="'ShoppingFramework::IProducer' -  (Interface) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\IProducer.cs" />
+  <Message Timestamp="2015-02-14T16:46:54" Importance="Medium" Text="'ShoppingFramework::IProducerFactory' -  (Interface) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\IProducerFactory.cs" />
+  <Message Timestamp="2015-02-14T16:46:54" Importance="Medium" Text="'ShoppingFramework::ISummaryGenerator' -  (Interface) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\ISummaryGenerator.cs" />
+  <Message Timestamp="2015-02-14T16:46:55" Importance="Medium" Text="'ShoppingFramework::IProduct' -  (Interface) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\IProduct.cs" />
+  <Message Timestamp="2015-02-14T16:46:55" Importance="Medium" Text="'ShoppingFramework::IProductFactory' -  (Interface) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\IProductFactory.cs" />
+  <Message Timestamp="2015-02-14T16:46:56" Importance="Medium" Text="'ShoppingFramework::IShopItem' -  (Interface) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\IShopItem.cs" />
+  <Message Timestamp="2015-02-14T16:46:56" Importance="Medium" Text="'ShoppingFramework::IShopItemFactory' -  (Interface) : success (file replaced) - C:\Users\SAMTES\documents\visual studio 2012\Projects\KendoUIMvcApplication2\ShoppingFrameworkLib\GeneratedCode\IShopItemFactory.cs" />
+  <Message Timestamp="2015-02-14T16:46:56" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2015-02-14T16:46:56" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-02-14T16:46:56" Importance="Diagnostic" Text="ProjectPath = ..\ShoppingFrameworkLib\ShoppingFrameworkLib.csproj" />
+  <Message Timestamp="2015-02-14T16:46:56" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-02-14T16:46:56" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-02-14T16:46:56" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2015-02-14T16:46:56" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2015-02-14T16:46:56" Importance="Medium" Text="ShoppingFramework's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'ShoppingFramework::Customer' -  (Class), 'ShoppingFramework::CustomerFactory' -  (Class), 'ShoppingFramework::Producer' -  (Class), 'ShoppingFramework::ProducerFactory' -  (Class), 'ShoppingFramework::SummaryGenerator' -  (Class), 'ShoppingFramework::Product' -  (Class), 'ShoppingFramework::ProductFactory' -  (Class), 'ShoppingFramework::ShopItem' -  (Class), 'ShoppingFramework::ShopItemFactory' -  (Class) " />
+  <Message Timestamp="2015-02-14T16:46:56" Importance="Diagnostic" Text="'ShoppingFramework::Customer' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-02-14T16:46:57" Importance="Diagnostic" Text="'ShoppingFramework::CustomerFactory' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-02-14T16:46:57" Importance="Diagnostic" Text="'ShoppingFramework::Producer' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-02-14T16:46:57" Importance="Diagnostic" Text="'ShoppingFramework::ProducerFactory' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-02-14T16:46:58" Importance="Diagnostic" Text="'ShoppingFramework::SummaryGenerator' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-02-14T16:46:58" Importance="Diagnostic" Text="'ShoppingFramework::Product' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-02-14T16:46:58" Importance="Diagnostic" Text="'ShoppingFramework::ProductFactory' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-02-14T16:46:59" Importance="Diagnostic" Text="'ShoppingFramework::ShopItem' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-02-14T16:46:59" Importance="Diagnostic" Text="'ShoppingFramework::ShopItemFactory' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-02-14T16:46:59" Importance="Diagnostic" Text="The selection included 14 elements which were not bound to a template." />
+  <Message Timestamp="2015-02-14T16:46:59" Importance="Diagnostic" Text="'ShoppingFramework::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2015-02-14T16:46:59" Importance="Diagnostic" Text="'ShoppingFramework::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2015-02-14T16:46:59" Importance="Diagnostic" Text="'ShoppingFramework::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2015-02-14T16:46:59" Importance="Diagnostic" Text="'ShoppingFramework::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2015-02-14T16:46:59" Importance="Diagnostic" Text="'ShoppingFramework::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2015-02-14T16:46:59" Importance="Diagnostic" Text="'ShoppingFramework::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-02-14T16:46:59" Importance="Diagnostic" Text="'ShoppingFramework::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-02-14T16:46:59" Importance="Diagnostic" Text="'ShoppingFramework::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2015-02-14T16:46:59" Importance="Diagnostic" Text="'ShoppingFramework::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2015-02-14T16:46:59" Importance="Diagnostic" Text="'ShoppingFramework::' -  (Association): no bound template." />
+  <Message Timestamp="2015-02-14T16:46:59" Importance="Diagnostic" Text="'ShoppingFramework::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-02-14T16:46:59" Importance="Diagnostic" Text="'ShoppingFramework::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2015-02-14T16:46:59" Importance="Diagnostic" Text="'ShoppingFramework::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-02-14T16:46:59" Importance="Diagnostic" Text="'ShoppingFramework::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2015-02-14T16:46:59" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>

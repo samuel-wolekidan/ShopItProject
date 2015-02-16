@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SamStoreShoppingSystem.Layer0.ItemCustomer" Collapsed="true">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Layer0\ItemCustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SamStoreShoppingSystem.Layer0.ItemProducer" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Layer0\ItemProducer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SamStoreShoppingSystem.ShopProduct" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Layer0\ShopProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SamStoreShoppingSystem.StoreProduct" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Layer0\StoreProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SamStoreShoppingSystem.Layer1.Book" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Layer1\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SamStoreShoppingSystem.Layer1.Electronics" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Layer1\Electronics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SamStoreShoppingSystem.Layer1.Manufacturer" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Layer1\Manufacturer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SamStoreShoppingSystem.Layer1.Movie" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Layer1\Movie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SamStoreShoppingSystem.Layer1.OrdinaryMember" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Layer1\OrdinaryMember.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SamStoreShoppingSystem.Layer1.PrimeMember" Collapsed="true">
+    <Position X="2.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Layer1\PrimeMember.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SamStoreShoppingSystem.Layer1.Publisher" Collapsed="true">
+    <Position X="5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Layer1\Publisher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SamStoreShoppingSystem.Layer1.StudentMember" Collapsed="true">
+    <Position X="5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Layer1\StudentMember.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SamStoreShoppingSystem.Layer1.Studio" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Layer1\Studio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
