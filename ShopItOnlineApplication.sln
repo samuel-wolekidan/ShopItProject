@@ -1,10 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamStoreShoppingSystem", "AmazonShoppingSystem\SamStoreShoppingSystem.csproj", "{A7243446-1C61-4160-8517-36F1EC4D031B}"
-EndProject
-Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "SamStoreShoppingSystemDesign", "AmazonShoppingSystemDesign\SamStoreShoppingSystemDesign.modelproj", "{81BC2F6B-6F3A-433B-8893-85AD665284F4}"
-EndProject
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ShoppingFramework", "ShoppingFramework\ShoppingFramework.modelproj", "{53F24E65-0A88-47D6-807C-928F547708D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopItServiceLibrary", "EShopItServiceLibrary\EShopItServiceLibrary.csproj", "{15B3E0D2-6217-493A-A690-158C497F5318}"
@@ -17,20 +13,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopItOnlineApplication", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopItOnlineApplicationTests", "ShopItOnlineApplicationTests\ShopItOnlineApplicationTests.csproj", "{ABDB4F0A-2541-4138-9460-32625380F4B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamStoreShoppingSystem", "SamStoreShoppingSystem\SamStoreShoppingSystem.csproj", "{A7243446-1C61-4160-8517-36F1EC4D031B}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "SamStoreShoppingSystemDesign", "SamStoreShoppingSystemDesign\SamStoreShoppingSystemDesign.modelproj", "{81BC2F6B-6F3A-433B-8893-85AD665284F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A7243446-1C61-4160-8517-36F1EC4D031B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7243446-1C61-4160-8517-36F1EC4D031B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A7243446-1C61-4160-8517-36F1EC4D031B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7243446-1C61-4160-8517-36F1EC4D031B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{81BC2F6B-6F3A-433B-8893-85AD665284F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81BC2F6B-6F3A-433B-8893-85AD665284F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81BC2F6B-6F3A-433B-8893-85AD665284F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81BC2F6B-6F3A-433B-8893-85AD665284F4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{53F24E65-0A88-47D6-807C-928F547708D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{53F24E65-0A88-47D6-807C-928F547708D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53F24E65-0A88-47D6-807C-928F547708D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -55,6 +47,14 @@ Global
 		{ABDB4F0A-2541-4138-9460-32625380F4B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABDB4F0A-2541-4138-9460-32625380F4B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABDB4F0A-2541-4138-9460-32625380F4B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7243446-1C61-4160-8517-36F1EC4D031B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7243446-1C61-4160-8517-36F1EC4D031B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7243446-1C61-4160-8517-36F1EC4D031B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7243446-1C61-4160-8517-36F1EC4D031B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81BC2F6B-6F3A-433B-8893-85AD665284F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81BC2F6B-6F3A-433B-8893-85AD665284F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81BC2F6B-6F3A-433B-8893-85AD665284F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81BC2F6B-6F3A-433B-8893-85AD665284F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
