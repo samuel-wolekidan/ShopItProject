@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ConsoleApplication1.ServiceReference1 {
+namespace ShopItOnlineApplication.ShopItService {
     using System.Runtime.Serialization;
     using System;
     
@@ -136,29 +136,29 @@ namespace ConsoleApplication1.ServiceReference1 {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IService")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ShopItService.IService")]
     public interface IService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetProduct", ReplyAction="http://tempuri.org/IService/GetProductResponse")]
-        ConsoleApplication1.ServiceReference1.Product GetProduct(string id);
+        ShopItOnlineApplication.ShopItService.Product GetProduct(string id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetAllProducts", ReplyAction="http://tempuri.org/IService/GetAllProductsResponse")]
-        ConsoleApplication1.ServiceReference1.Product[] GetAllProducts();
+        ShopItOnlineApplication.ShopItService.Product[] GetAllProducts();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetProducer", ReplyAction="http://tempuri.org/IService/GetProducerResponse")]
-        ConsoleApplication1.ServiceReference1.Producer GetProducer(string id);
+        ShopItOnlineApplication.ShopItService.Producer GetProducer(string id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetAllProducers", ReplyAction="http://tempuri.org/IService/GetAllProducersResponse")]
-        ConsoleApplication1.ServiceReference1.Producer[] GetAllProducers();
+        ShopItOnlineApplication.ShopItService.Producer[] GetAllProducers();
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IServiceChannel : ConsoleApplication1.ServiceReference1.IService, System.ServiceModel.IClientChannel {
+    public interface IServiceChannel : ShopItOnlineApplication.ShopItService.IService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class ServiceClient : System.ServiceModel.ClientBase<ConsoleApplication1.ServiceReference1.IService>, ConsoleApplication1.ServiceReference1.IService {
+    public partial class ServiceClient : System.ServiceModel.ClientBase<ShopItOnlineApplication.ShopItService.IService>, ShopItOnlineApplication.ShopItService.IService {
         
         public ServiceClient() {
         }
@@ -179,19 +179,19 @@ namespace ConsoleApplication1.ServiceReference1 {
                 base(binding, remoteAddress) {
         }
         
-        public ConsoleApplication1.ServiceReference1.Product GetProduct(string id) {
+        public ShopItOnlineApplication.ShopItService.Product GetProduct(string id) {
             return base.Channel.GetProduct(id);
         }
         
-        public ConsoleApplication1.ServiceReference1.Product[] GetAllProducts() {
+        public ShopItOnlineApplication.ShopItService.Product[] GetAllProducts() {
             return base.Channel.GetAllProducts();
         }
         
-        public ConsoleApplication1.ServiceReference1.Producer GetProducer(string id) {
+        public ShopItOnlineApplication.ShopItService.Producer GetProducer(string id) {
             return base.Channel.GetProducer(id);
         }
         
-        public ConsoleApplication1.ServiceReference1.Producer[] GetAllProducers() {
+        public ShopItOnlineApplication.ShopItService.Producer[] GetAllProducers() {
             return base.Channel.GetAllProducers();
         }
     }
