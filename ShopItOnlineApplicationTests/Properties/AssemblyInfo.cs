@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AmazonShoppingSystemDesignLib")]
+[assembly: AssemblyTitle("KendoUIMvcApplication2Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("AmazonShoppingSystemDesignLib")]
+[assembly: AssemblyProduct("KendoUIMvcApplication2Tests")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("14442d6a-9090-49de-9ef1-8d0d5b09130a")]
+[assembly: Guid("f7916a8e-6a32-476f-8685-40bb62895e0f")]
 
 // Version information for an assembly consists of the following four values:
 //
