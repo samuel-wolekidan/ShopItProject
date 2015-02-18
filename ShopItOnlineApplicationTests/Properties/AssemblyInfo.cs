@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("KendoUIMvcApplication2Tests")]
+[assembly: AssemblyTitle("ShopItOnlineApplicationTests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("KendoUIMvcApplication2Tests")]
+[assembly: AssemblyProduct("ShopItOnlineApplicationTests")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f7916a8e-6a32-476f-8685-40bb62895e0f")]
+[assembly: Guid("1720bfcd-84b0-4e6d-8af5-9a61099efc2e")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -17,7 +17,7 @@ namespace EShopItServiceLibrary
             return new Product()
             {
                 Id = Convert.ToInt32(id),
-                Name = "Product1"
+                Name = "The Girl on the Train: A Novel-2"
             };
         }
 
@@ -36,10 +36,14 @@ namespace EShopItServiceLibrary
 
         public Producer GetProducer(string id)
         {
-            return null;
+            return new Producer()
+            {
+                Id = Convert.ToInt32(id),
+                Name = "Deckle Edge"
+            };
         }
 
-        List<Producer> IService.GetAllProducers()
+        public List<Producer> GetAllProducers()
         {
             List<Producer> producers = new List<Producer>();
             producers.Add(new Producer() { Id = 1, Name = "Deckle Edge" });

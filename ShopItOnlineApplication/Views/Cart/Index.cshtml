@@ -1,0 +1,66 @@
+﻿@model ShopItOnlineApplication.Models.CartItem
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet" href="styles/kendo.common.min.css" />
+    <link rel="stylesheet" href="styles/kendo.default.min.css" />
+    <link rel="stylesheet" href="styles/kendo.dataviz.min.css" />
+    <link rel="stylesheet" href="styles/kendo.dataviz.default.min.css" />
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/kendo.all.min.js"></script>
+</head>
+<body>
+<div id="example">
+    <div class="demo-section k-header"><input id="products" style="width: 400px;"/></div>
+    <div id="product-preview" class="demo-section k-header"></div>
+</div>
+
+<script id="product-template" type="text/x-kendo-template">
+    <h4>ProductName: #: Name #</h4>
+    <img src="../content/web/foods/#= Id #.jpg">
+</script>
+
+<script>
+    var template = kendo.template($("#product-template").html());
+
+    function preview() {
+        var dropdown = $("#products").data("kendoDropDownList");
+
+        var product = dropdown.dataSource.get(dropdown.value());
+
+        var productPreviewHtml = template(product);
+
+        $("#product-preview").html(productPreviewHtml);
+    }
+
+    $("#products").kendoDropDownList({
+        dataTextField: "Name",
+        dataValueField: "Id",
+        dataSource: {
+            transport: {
+                read: {
+                    url: "http://demos.telerik.com/kendo-ui/service/products",
+                    dataType: "jsonp"
+                }
+            },
+            schema: {
+                model: {
+                    id: "ProductID"
+                }
+            }
+        },
+        dataBound: preview,
+        change: preview
+    });
+</script>
+<style scoped>
+    .demo-section { width: 400px; }
+</style>
+
+
+</body>
+</html>
