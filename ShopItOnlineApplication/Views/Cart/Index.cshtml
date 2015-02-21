@@ -21,7 +21,7 @@
 
 <script id="product-template" type="text/x-kendo-template">
     <h4>ProductName: #: Name #</h4>
-    <img src="../content/web/foods/#= Id #.jpg">
+    <img src="../Images/Products/#= Id #.jpg">
 </script>
 
 <script>
@@ -43,13 +43,13 @@
         dataSource: {
             transport: {
                 read: {
-                    url: "http://demos.telerik.com/kendo-ui/service/products",
+                    url: "http://localhost:8734/Service.svc/products",
                     dataType: "jsonp"
                 }
             },
             schema: {
                 model: {
-                    id: "ProductID"
+                    id: "Id"
                 }
             }
         },
@@ -60,7 +60,5 @@
 <style scoped>
     .demo-section { width: 400px; }
 </style>
-
-
 </body>
 </html>
