@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ShoppingFramework", "ShoppingFramework\ShoppingFramework.modelproj", "{53F24E65-0A88-47D6-807C-928F547708D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopItServiceLibrary", "EShopItServiceLibrary\EShopItServiceLibrary.csproj", "{15B3E0D2-6217-493A-A690-158C497F5318}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingFrameworkLib", "ShoppingFrameworkLib\ShoppingFrameworkLib.csproj", "{4F8146AE-F7A5-41F0-AC6D-041F6EDC0762}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopItServiceApplication", "EShopItServiceApplication\EShopItServiceApplication.csproj", "{0EC19CC1-3FAA-4571-9507-BAE7D0D9846B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamStoreShoppingSystem", "SamStoreShoppingSystem\SamStoreShoppingSystem.csproj", "{A7243446-1C61-4160-8517-36F1EC4D031B}"
 EndProject
@@ -15,10 +11,12 @@ Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "SamStoreShoppingSystemDesig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopItOnlineApplication", "ShopItOnlineApplication\ShopItOnlineApplication.csproj", "{46B9C478-AAD6-4072-A72E-481AC79A761D}"
 	ProjectSection(ProjectDependencies) = postProject
-		{0EC19CC1-3FAA-4571-9507-BAE7D0D9846B} = {0EC19CC1-3FAA-4571-9507-BAE7D0D9846B}
+		{30476EC8-5B36-4FD1-87AD-4B8A444B226F} = {30476EC8-5B36-4FD1-87AD-4B8A444B226F}
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopItOnlineApplicationTests", "ShopItOnlineApplicationTests\ShopItOnlineApplicationTests.csproj", "{7B869E78-2117-4E60-8623-1A377BC63D83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopItServiceLibraryApplication", "EShopItServiceLibraryApplication\EShopItServiceLibraryApplication.csproj", "{30476EC8-5B36-4FD1-87AD-4B8A444B226F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,18 +28,10 @@ Global
 		{53F24E65-0A88-47D6-807C-928F547708D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53F24E65-0A88-47D6-807C-928F547708D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53F24E65-0A88-47D6-807C-928F547708D0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4F8146AE-F7A5-41F0-AC6D-041F6EDC0762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4F8146AE-F7A5-41F0-AC6D-041F6EDC0762}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F8146AE-F7A5-41F0-AC6D-041F6EDC0762}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F8146AE-F7A5-41F0-AC6D-041F6EDC0762}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0EC19CC1-3FAA-4571-9507-BAE7D0D9846B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0EC19CC1-3FAA-4571-9507-BAE7D0D9846B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0EC19CC1-3FAA-4571-9507-BAE7D0D9846B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0EC19CC1-3FAA-4571-9507-BAE7D0D9846B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A7243446-1C61-4160-8517-36F1EC4D031B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A7243446-1C61-4160-8517-36F1EC4D031B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7243446-1C61-4160-8517-36F1EC4D031B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -58,6 +48,10 @@ Global
 		{7B869E78-2117-4E60-8623-1A377BC63D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B869E78-2117-4E60-8623-1A377BC63D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B869E78-2117-4E60-8623-1A377BC63D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30476EC8-5B36-4FD1-87AD-4B8A444B226F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30476EC8-5B36-4FD1-87AD-4B8A444B226F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30476EC8-5B36-4FD1-87AD-4B8A444B226F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30476EC8-5B36-4FD1-87AD-4B8A444B226F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
