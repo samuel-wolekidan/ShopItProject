@@ -245,6 +245,26 @@ hgroup.title h2 {
     margin-left: 3px;
 }
 
+#product-preview > img {
+    width : 400px;
+}
+
+.k-scheduler-content .k-event .movie-template {
+    height: 110px;
+}
+
+/*.k-scheduler-content .k-event .movie-template>img {
+    height: 70px;
+    width: 70px;
+}*/
+
+.k-scheduler-content .k-event {
+    top: 0px;
+    height: 120px;
+    width: 860px; 
+    left: 2px;
+}
+
 /* features */
 section.feature {
     width: 300px;

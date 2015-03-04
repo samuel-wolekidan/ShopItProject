@@ -17,19 +17,20 @@ namespace EShopItServiceLibraryApplication
             return new Product()
             {
                 Id = Convert.ToInt32(id),
-                Name = "The Girl on the Train: A Novel-2"
+                Name = "The Girl on the Train: A Novel-2",
+                Price = 45.0
             };
         }
 
         public List<Product> GetAllProducts()
         {
             List<Product> products = new List<Product>();
-            products.Add(new Product() { Id = 1, Name = "The Girl on the Train: A Novel" });
-            products.Add(new Product() { Id = 2, Name = "Lane's End (A Fitzjohn Mystery Book 4)" });
-            products.Add(new Product() { Id = 3, Name = "Ruby (Oprah's Book Club 2.0)" });
-            products.Add(new Product() { Id = 4, Name = "The Girl on the Train: A Novel" });
-            products.Add(new Product() { Id = 5, Name = "The Girl on the Train: A Novel-2" });
-            products.Add(new Product() { Id = 6, Name = "The Girl on the Train: A Novel-3" });
+            products.Add(new Product() { Id = 1, Name = "The Girl on the Train: A Novel", Price = 30.0 });
+            products.Add(new Product() { Id = 2, Name = "Lane's End (A Fitzjohn Mystery Book 4)", Price = 55.0 });
+            products.Add(new Product() { Id = 3, Name = "Ruby (Oprah's Book Club 2.0)", Price = 45.0 });
+            products.Add(new Product() { Id = 4, Name = "The Girl on the Train: A Novel", Price = 43.0 });
+            products.Add(new Product() { Id = 5, Name = "The Girl on the Train: A Novel-2", Price = 78.0});
+            products.Add(new Product() { Id = 6, Name = "The Girl on the Train: A Novel-3", Price = 53.0 });
 
             return products;
         }
@@ -60,6 +61,7 @@ namespace EShopItServiceLibraryApplication
     {
         int id = 1;
         string name = "";
+        double price = 0.0;
 
         [DataMember]
         public int Id
@@ -73,6 +75,13 @@ namespace EShopItServiceLibraryApplication
         {
             get { return this.name; }
             set { this.name = value; }
+        }
+
+        [DataMember]
+        public double Price
+        {
+            get { return this.price; }
+            set { this.price = value; }
         }
     }
 

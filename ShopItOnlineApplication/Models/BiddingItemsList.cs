@@ -5,7 +5,7 @@ using System.Web;
 
 namespace ShopItOnlineApplication.Models
 {
-    public class WishList
+    public class BiddingItemsList
     {
         public List<CartItem> wishList { get; set; }
     }

@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace ShopItOnlineApplication.Controllers
 {
-    public class WishListController : Controller
+    public class BiddingItemsListController : Controller
     {
         //
         // GET: /WishList/

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace SamStoreShoppingSystem.Layer0
 {
+    /// <summary>
+    /// This class reprensents a customer attached to a specific item. 
+    /// </summary>
     public abstract class ItemCustomer : Customer
     {
     }
